@@ -1,0 +1,86 @@
+.m{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+       border-radius: 0px;
+       background-color: rgba(0, 0, 0, 0.8);
+}
+.bar{
+        font-size: 35px;
+        color: white;
+        padding-left: 25px;
+        }
+
+.bar:hover{
+          color: white;
+        }
+.too{
+	border: 2px solid white;
+	margin-right: 2px;
+}	
+.Icon{
+	background-color: white;
+}
+.Ourmenu{
+	margin-bottom: 15px;
+            text-align: center;
+            color: #ff4532;
+            font-size: 50px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            font-weight: bold;
+}
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	display: block;
+	color: black;
+	border-bottom: 1px solid black;
+}
+.menu:hover{
+	       background-color:lightgray;
+           color: rgba(0, 0, 0, 0.4);
+}
+.bar{
+	font-size: 33px;
+            color: white;
+            padding-left: 25px;
+}
+.con{
+	margin: 20px}
+.Dosai{
+	background-color:lightgrey;
+	width: auto;
+	height: auto;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	padding: 20px;
+	margin: 20px;
+}
+.Puri{
+	background-color:lightgrey;
+	width: auto;
+	height: auto;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	padding: 20px;
+	margin: 20px;
+}
+.Idli{
+	background-color:lightgrey;
+	width: auto;
+	height: auto;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	padding: 20px;
+	margin: 20px;
+}
+.name{
+	text-align: center;
+	color: black;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+	font-size: 20px;
+}
