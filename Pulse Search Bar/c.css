@@ -1,0 +1,44 @@
+/* c.css */
+
+.searchbar{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 155px;
+    padding: 5px;
+    position: relative;
+    margin: 500px;
+  
+}
+.srchinput{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px; 
+
+}
+.pulse{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 55%;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.2);
+        opacity: 0.7; 
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}

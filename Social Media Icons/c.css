@@ -1,0 +1,31 @@
+/* styles.css */
+
+.Icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size:cover;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+}
+.Facebook{
+    background-image: url("Facebook-icon.png");
+    background-color: #385998;
+}
+.X{
+    background-image: url("X-icon.png");
+    background-color: black;
+}
+.Instagram{
+    background-image: url("instagram-icon.png");
+    background-color: #E1306c;
+}
+.icon:hover{
+    transform: scale(1.3);
+}
